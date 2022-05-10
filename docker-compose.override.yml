@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+###> doctrine/doctrine-bundle ###
+  database:
+    ports:
+      - "3306"
+
+  database2:
+    ports:
+      - "3320"
+###< doctrine/doctrine-bundle ###
